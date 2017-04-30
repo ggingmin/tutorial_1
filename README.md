@@ -19,10 +19,10 @@
 | /posts/:id      | update  | PATCH       | 수정한 콘텐츠 내용 등록   |
 | /posts/:id      | destroy | DELETE      | 선택한 콘텐츠 제거        |
   
-> GET(추출)
-> POST(생성)
-> PATCH(변경)
-> DELETE(제거)
+- GET(추출)
+- POST(생성)
+- PATCH(변경)
+- DELETE(제거)
   
 Q. 굳이 `method: :delete`, `method: :patch` 코드를 추가한 이유는?
   
