@@ -1,24 +1,9 @@
-# README
+# Rails와 CRUD
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+이 소스 코드는 CRUD를 활용한 간단한 게시판 제작을 다루고 있습니다.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## CRUD란?
+- Create(생성)
+- Read(열람)
+- Update(변경)
+- Delete(삭제)
