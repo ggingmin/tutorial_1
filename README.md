@@ -24,10 +24,10 @@
 > PATCH(변경)
 > DELETE(제거)
   
-> Q. 굳이 `method: :delete`, `method: :patch` 코드를 추가한 이유는?
+Q. 굳이 `method: :delete`, `method: :patch` 코드를 추가한 이유는?
   
-> A. 내부적으로는 HTTP POST로 접근하지만 추가로 'DELETE'나 'PATCH'를 언급함으로써 이 기능을 사용할 수 있게된다.
+A. 내부적으로는 HTTP POST로 접근하지만 추가로 'DELETE'나 'PATCH'를 언급함으로써 이 기능을 사용할 수 있게된다.
   
-> 그 이유는 웹 브라우저 호환성 때문.
+그 이유는 웹 브라우저 호환성 때문.
   
-> 구 버전의 웹 브라우저는 DELETE/PATCH 등을 지원하지 않아서 일단은 POST로 접근해야 한다.
+구 버전의 웹 브라우저는 DELETE/PATCH 등을 지원하지 않아서 일단은 POST로 접근해야 한다.
